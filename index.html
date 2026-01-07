@@ -1,214 +1,551 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="CeramicROOM - Detailing automotriz premium. Ceramic Coating, pulidos, lavado premium y más." />
-  <title>CeramicROOM | Detailing Automotriz Premium</title>
-  <link rel="icon" href="imgs/logo.png" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <!-- Header con logo, menú y CTA -->
-  <header class="header" id="inicio">
-    <div class="header__brand">
-      <img class="logo" src="imgs/logo.png" alt="CeramicROOM logo" />
-      <div class="brand">
-        <p class="brand__name">CeramicROOM</p>
-        <p class="brand__tag">Detailing Studio</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ceramic Room - Detailing automotriz premium. Ceramic Coating, pulidos, lavado premium y más."
+    />
+    <title>Ceramic Room | Detailing Automotriz Premium</title>
+    <link rel="icon" href="imgs/logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header con logo, menú y CTA -->
+    <header class="header" id="inicio">
+      <div class="header__brand">
+        <img class="logo" src="imgs/logo.webp" alt="Ceramic Room logo" />
+        <div class="brand">
+          <p class="brand__name">Ceramic Room</p>
+          <p class="brand__tag">Profesional Detailing</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#sobre">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="btn btn--primary" href="#contacto">Reserva Ahora</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero impactante con CTA doble -->
+      <section class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Detailing Automotriz Premium</p>
+          <h1 class="hero__title">
+            Especialistas en Tratamientos Cerámicos, Detailing Premium y PPF
+          </h1>
+          <p class="hero__subtitle">
+            Somos es un estudio de estética automotriz premium, especializado en
+            protección cerámica, PPF y detallado profesional ubicados en San
+            Jose también trabajamos a domicilio
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contacto">Reserva Ahora</a>
+            <a class="btn btn--ghost" href="#galeria">Ver Galería</a>
+          </div>
+          <div class="hero__badges">
+            <div class="badge">Tratamientos Ceramicos</div>
+            <div class="badge">PPF</div>
+            <div class="badge">Detallado Premium</div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__panel">
+            <div class="hero__stats">
+              <div class="stat">
+                <p class="stat__number">+300</p>
+                <p class="stat__label">Vehículos detallados</p>
+              </div>
+              <div class="stat">
+                <p class="stat__number">5 años</p>
+                <p class="stat__label">Protección cerámica</p>
+              </div>
+              <div class="stat stat--wide">
+                <p class="stat__number">Marcas certificadas</p>
+                <p class="stat__label">Gtechniq · Gyeon · STEK · Koch Chemie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Servicios -->
+      <section class="section services" id="servicios">
+        <div class="section__header">
+          <p class="eyebrow">Nuestros Servicios</p>
+          <h2 class="section__title">
+            Soluciones Profesionales en Detallado y Protección Automotriz
+          </h2>
+          <p class="section__lede">
+            Soluciones premium pensadas para preservar, proteger y realzar el
+            acabado de tu vehículo.
+          </p>
+        </div>
+        <div class="services__grid">
+          <details class="card card--service service">
+            <summary>
+              <div class="service__body">
+                <h3 class="card__title">Tratamientos Cerámicos</h3>
+                <p class="card__text">
+                  Protección a largo plazo y brillo espejo. Opciones 1-5 años
+                  según uso y presupuesto.
+                </p>
+              </div>
+            </summary>
+            <div class="service__overlay">
+              <img
+                src="https://www.moje-auto.pl/blog/wp-content/uploads/2021/02/powloka-ceramiczna-co-warto-o-niej-wiedziec-i-jak-o-nia-dbac.jpg"
+                alt="Aplicación de recubrimiento cerámico"
+                class="service__detail-img"
+              />
+              <p>
+                Aplicamos coatings de alta gama que crean una barrera invisible
+                contra rayones leves, sol, suciedad y excremento de aves.
+                Facilita el lavado y mantiene el brillo profundo. Elige
+                duraciones de 1, 2, 3 o 5 años.
+              </p>
+              <div class="plans">
+                <article class="plan-card">
+                  <div class="plan-card__header">
+                    <p class="plan-card__name">Proteccion ceramica 6 meses</p>
+                    <p class="plan-card__price">Desde &#8353;40.000</p>
+                  </div>
+                  <ul class="plan-card__list">
+                    <li>Hatchbacks y sedanes: &#8353;40.000</li>
+                    <li>Mid SUV 5 pasajeros: &#8353;50.000</li>
+                    <li>SUV 7 pasajeros: &#8353;60.000</li>
+                    <li>Otros: segun cotizacion</li>
+                  </ul>
+                  <p class="plan-card__note">
+                    Incluye desco total y pulida de abrillantado. Duracion del
+                    servicio: 3 a 5 horas.
+                  </p>
+                  <a
+                    class="btn btn--ghost btn--block"
+                    href="#contacto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Reservar por WhatsApp</a
+                  >
+                </article>
+                <article class="plan-card">
+                  <div class="plan-card__header">
+                    <p class="plan-card__name">Tratamiento ceramico 2 a?os</p>
+                    <p class="plan-card__price">Desde &#8353;105.000</p>
+                  </div>
+                  <ul class="plan-card__list">
+                    <li>Hatchbacks y sedanes: &#8353;105.000</li>
+                    <li>Mid SUV 5 pasajeros: &#8353;120.000</li>
+                    <li>SUV 7 pasajeros: &#8353;135.000</li>
+                    <li>Otros: segun cotizacion</li>
+                  </ul>
+                  <p class="plan-card__note">
+                    Incluye desco total y pulido completo. Duracion del
+                    servicio: 5 a 7 horas.
+                  </p>
+                  <a
+                    class="btn btn--ghost btn--block"
+                    href="#contacto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Reservar por WhatsApp</a
+                  >
+                </article>
+                <article class="plan-card">
+                  <div class="plan-card__header">
+                    <p class="plan-card__name">Tratamiento ceramico 3 a?os</p>
+                    <p class="plan-card__price">Desde &#8353;165.000</p>
+                  </div>
+                  <ul class="plan-card__list">
+                    <li>Hatchbacks y sedanes: &#8353;165.000</li>
+                    <li>Mid SUV 5 pasajeros: &#8353;185.000</li>
+                    <li>SUV 7 pasajeros: &#8353;210.000</li>
+                    <li>Otros: segun cotizacion</li>
+                  </ul>
+                  <p class="plan-card__note">
+                    Incluye desco total y pulido completo. Duracion del
+                    servicio: 5 a 8 horas.
+                  </p>
+                  <a
+                    class="btn btn--ghost btn--block"
+                    href="#contacto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Reservar por WhatsApp</a
+                  >
+                </article>
+              </div>
+            </div>
+          </details>
+          <details class="card card--service service">
+            <summary>
+              <div class="service__body">
+                <h3 class="card__title">Detallado Premium</h3>
+                <p class="card__text">
+                  Nos encargamos del detallado completo de tu vehículo, desde el
+                  interior hasta el exterior, cuidando cada superficie y cada
+                  detalle.
+                </p>
+              </div>
+            </summary>
+            <div class="service__overlay">
+              <img
+                src="https://www.shutterstock.com/image-photo/brand-new-sportscar-production-line-600nw-2287564373.jpg"
+                alt="Detalle de limpieza interior a domicilio"
+                class="service__detail-img"
+              />
+              <p>
+                Realizamos limpieza profunda de tapicerías, detallado interior y
+                exterior, con la opción de servicio a domicilio o en nuestro
+                local, siempre con procesos profesionales y resultados de alto
+                nivel.
+              </p>
+            </div>
+          </details>
+          <details class="card card--service service">
+            <summary>
+              <div class="service__body">
+                <h3 class="card__title">PPF Paint Protection Film</h3>
+                <p class="card__text">
+                  Película invisible autocurable para zonas vulnerables o
+                  cobertura total.
+                </p>
+              </div>
+            </summary>
+            <div class="service__overlay">
+              <img
+                src="https://www.shutterstock.com/shutterstock/videos/1103467157/thumb/1.jpg?ip=x480"
+                alt="Instalación de PPF en superficie"
+                class="service__detail-img"
+              />
+              <p>
+                Protege las zonas más expuestas del vehículo como frente,
+                bumper, tapa, manillas, filos de puertas, espejos y negro piano.
+                El PPF absorbe impactos de piedras, rayones y desgaste diario,
+                manteniendo la pintura original intacta y sin alterar la
+                apariencia.
+              </p>
+              <div class="plans">
+                <article class="plan-card">
+                  <div class="plan-card__header">
+                    <p class="plan-card__name">PPF Zonas de alto transito</p>
+                    <p class="plan-card__price">Desde &#8353;40.000</p>
+                  </div>
+                  <ul class="plan-card__list">
+                    <li>Pantalla, fondos de manillas y filos de puertas</li>
+                    <li>Proteccion invisible autocurable</li>
+                    <li>Ideal para uso diario</li>
+                  </ul>
+                  <p class="plan-card__note">
+                    Duracion: 2 a 3 horas segun zonas. Consulta disponibilidad
+                    para otras piezas puntuales.
+                  </p>
+                  <a
+                    class="btn btn--ghost btn--block"
+                    href="#contacto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Cotizar zonas</a
+                  >
+                </article>
+                <article class="plan-card">
+                  <div class="plan-card__header">
+                    <p class="plan-card__name">PPF parcial o casi total</p>
+                    <p class="plan-card__price">Por cotizacion</p>
+                  </div>
+                  <ul class="plan-card__list">
+                    <li>
+                      Frente completo, bumper, capo, guardafangos y espejos
+                    </li>
+                    <li>Laterales, pilares, techo, negro piano</li>
+                    <li>Cobertura a medida segun el modelo</li>
+                  </ul>
+                  <p class="plan-card__note">
+                    Proteccion invisible contra piedras y rayones. Mantiene la
+                    pintura intacta sin cambiar el acabado.
+                  </p>
+                  <a
+                    class="btn btn--primary btn--block"
+                    href="#contacto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Cotizar PPF</a
+                  >
+                </article>
+              </div>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Galería / Portafolio -->
+      <section class="section gallery" id="galeria">
+        <div class="section__header">
+          <p class="eyebrow">Galería</p>
+          <h2 class="section__title">Resultados que hablan por sí mismos</h2>
+        </div>
+        <div class="gallery__carousel">
+          <button
+            class="carousel__control carousel__control--prev"
+            aria-label="Foto anterior"
+          >
+            ‹
+          </button>
+          <div class="carousel__track">
+            <div class="carousel__slide">
+              <img
+                src="imgs/carro3-ceramicado.webp"
+                alt="Detalle frontal con brillo profundo"
+              />
+            </div>
+            <div class="carousel__slide">
+              <img src="imgs/ej-ceramicado.webp" alt="Brillo espejo en capó" />
+            </div>
+            <div class="carousel__slide">
+              <img
+                src="imgs/ej2-ceramicado.webp"
+                alt="Detalle de acabado cerámico"
+              />
+            </div>
+            <div class="carousel__slide">
+              <img
+                src="imgs/carro-en-proceso.webp"
+                alt="Detalle de acabado cerámico"
+              />
+            </div>
+            <div class="carousel__slide">
+              <img
+                src="imgs/resultado-bmw.webp"
+                alt="Detalle de acabado cerámico"
+              />
+            </div>
+            <div class="carousel__slide">
+              <img
+                src="imgs/carro-rojo-ceramicado.webp"
+                alt="Detalle de acabado cerámico"
+              />
+            </div>
+            <div class="carousel__slide">
+              <img
+                src="imgs/moto-resultado.webp"
+                alt="Detalle de acabado cerámico"
+              />
+            </div>
+            <div class="carousel__slide">
+              <img
+                src="imgs/moto-resultado2.webp"
+                alt="Detalle de acabado cerámico"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel__control carousel__control--next"
+            aria-label="Foto siguiente"
+          >
+            ›
+          </button>
+        </div>
+      </section>
+
+      <!-- Sobre Nosotros -->
+      <section class="section about" id="sobre">
+        <div class="about__content">
+          <div class="section__header">
+            <p class="eyebrow">Sobre Nosotros</p>
+            <h2 class="section__title">
+              Ceramic Room, obsesionados con el detalle
+            </h2>
+            <p class="section__lede">
+              Misión: En Ceramic Room trabajamos para cuidar cada vehículo como
+              si fuera propio, educando a nuestros clientes, siendo totalmente
+              transparentes en nuestros procesos y garantizando resultados que
+              realmente marquen la diferencia.
+            </p>
+          </div>
+
+          <div class="about__certs">
+            <details class="certs-dropdown">
+              <summary>
+                <span class="certs-dropdown__title">Certificaciones</span>
+                <span class="certs-dropdown__subtitle"
+                  >Marcas l&iacute;deres en coating, detallado y PPF</span
+                >
+              </summary>
+              <div class="certs-grid">
+                <article class="cert-card">
+                  <h4 class="cert-card__title">GTECHNIQ</h4>
+                  <p class="cert-card__text">
+                    Certificaci&oacute;n en
+                    <strong
+                      >aplicaci&oacute;n de recubrimientos cer&aacute;micos y
+                      procesos de pulido profesional</strong
+                    >.
+                  </p>
+                </article>
+                <article class="cert-card">
+                  <h4 class="cert-card__title">GYEON</h4>
+                  <p class="cert-card__text">
+                    Certificaci&oacute;n en
+                    <strong
+                      >detallado profesional y aplicaci&oacute;n de tratamientos
+                      cer&aacute;micos</strong
+                    >.
+                  </p>
+                </article>
+                <article class="cert-card">
+                  <h4 class="cert-card__title">STEK</h4>
+                  <p class="cert-card__text">
+                    Certificaci&oacute;n en
+                    <strong
+                      >instalaci&oacute;n de PPF (Paint Protection Film)</strong
+                    >.
+                  </p>
+                </article>
+                <article class="cert-card">
+                  <h4 class="cert-card__title">Koch Chemie</h4>
+                  <p class="cert-card__text">
+                    Certificaci&oacute;n en
+                    <strong
+                      >detallado profesional, pulido profesional y uso correcto
+                      de productos</strong
+                    >.
+                  </p>
+                </article>
+              </div>
+            </details>
+          </div>
+          <div class="about__location">
+            <div class="location-card">
+              <p class="fact__value">
+                Estudio ubicado en San Jose y servicio a domicilio en todo CR
+                (con cita previa).
+              </p>
+              <a
+                class="map-link"
+                href="https://maps.app.goo.gl/9tSwtDU7kyfWMcqe7"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver ubicaci&oacute;n en Google Maps"
+              >
+                <span class="map-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="presentation">
+                    <path
+                      d="M12 2c-3.866 0-7 3.134-7 7 0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
+                    />
+                  </svg>
+                </span>
+                Ver ubicaci&oacute;n
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="about__visual">
+          <div class="placeholder placeholder--about">
+            <img src="imgs/jeep-negro.webp" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonios -->
+      <section class="section testimonials" id="testimonios">
+        <div class="section__header">
+          <p class="eyebrow">Testimonios</p>
+          <h2 class="section__title">Lo que dicen nuestros clientes</h2>
+        </div>
+        <div class="testimonials__grid">
+          <article class="card card--testimonial">
+            <p class="card__quote">
+              “Ya ha pasado un mes desde que hice el tratamiento cerámico y el
+              carro sigue brillando como el primer día.”
+            </p>
+            <p class="card__author">— Jason Segura</p>
+          </article>
+          <article class="card card--testimonial">
+            <p class="card__quote">
+              “Quedé impresionado con el resultado del tratamiento cerámico. El
+              brillo que tiene mi carro ahora parece de exhibición.”
+            </p>
+            <p class="card__author">— Isaac Vindas</p>
+          </article>
+          <article class="card card--testimonial">
+            <p class="card__quote">
+              “No solo fue un tratamiento cerámico, fue una experiencia. El
+              resultado superó mis expectativas. ¡Vale cada colón invertido!”
+            </p>
+            <p class="card__author">— María Paula Sanchez</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contacto con formulario -->
+      <section class="section contact" id="contacto">
+        <div class="section__header contact_letters">
+          <p class="eyebrow">Contacto</p>
+          <h2 class="section__title">Reserva tu próximo servicio</h2>
+          <p class="section__lede">
+            Escríbenos por WhatsApp para agendar o cotizar al instante.
+          </p>
+        </div>
+        <div class="contact__cta">
+          <a
+            class="btn btn--primary btn--block"
+            href="#contacto"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Escríbenos por WhatsApp</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer__copy">
+        © 2024 Ceramic Room. Detailing automotriz premium.
+      </p>
+    </footer>
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox__backdrop" data-lightbox-close></div>
+      <div
+        class="lightbox__content"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Galeria ampliada"
+      >
+        <button class="lightbox__close" type="button" aria-label="Cerrar">
+          &times;
+        </button>
+        <button
+          class="lightbox__nav lightbox__nav--prev"
+          type="button"
+          aria-label="Anterior"
+        >
+          &lsaquo;
+        </button>
+        <img class="lightbox__image" src="" alt="" />
+        <button
+          class="lightbox__nav lightbox__nav--next"
+          type="button"
+          aria-label="Siguiente"
+        >
+          &rsaquo;
+        </button>
+        <div class="lightbox__counter" aria-live="polite"></div>
       </div>
     </div>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#galeria">Galería</a></li>
-        <li><a href="#sobre">Sobre Nosotros</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-      <a class="btn btn--primary" href="#contacto">Reserva Ahora</a>
-    </nav>
-  </header>
-
-  <main>
-    <!-- Hero impactante con CTA doble -->
-    <section class="hero">
-      <div class="hero__content">
-        <p class="eyebrow">Detailing Automotriz Premium</p>
-        <h1 class="hero__title">Detailing premium para tu auto</h1>
-        <p class="hero__subtitle">Transformamos tu auto con los más altos estándares de cuidado. Ceramic Coating, pulidos, lavado premium y más.</p>
-        <div class="hero__actions">
-          <a class="btn btn--primary" href="#contacto">Reserva Ahora</a>
-          <a class="btn btn--ghost" href="#galeria">Ver Galería</a>
-        </div>
-        <div class="hero__badges">
-          <div class="badge">Ceramic Coating</div>
-          <div class="badge">PPF & Pulido</div>
-          <div class="badge">Lavado Premium</div>
-        </div>
-      </div>
-      <div class="hero__visual">
-        <div class="hero__panel">
-          <div class="hero__stats">
-            <div class="stat">
-              <p class="stat__number">+500</p>
-              <p class="stat__label">Vehículos detallados</p>
-            </div>
-            <div class="stat">
-              <p class="stat__number">72h</p>
-              <p class="stat__label">Entrega promedio</p>
-            </div>
-            <div class="stat">
-              <p class="stat__number">5 años</p>
-              <p class="stat__label">Protección cerámica</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Servicios -->
-    <section class="section services" id="servicios">
-      <div class="section__header">
-        <p class="eyebrow">Nuestros Servicios</p>
-        <h2 class="section__title">Protección y brillo a nivel estudio</h2>
-        <p class="section__lede">Soluciones premium pensadas para preservar, proteger y realzar el acabado de tu vehículo.
-        </p>
-      </div>
-      <div class="services__grid">
-        <details class="card card--service service">
-          <summary>
-            <div class="service__body">
-              <h3 class="card__title">Tratamientos Cerámicos</h3>
-              <p class="card__text">Protección a largo plazo y brillo espejo. Opciones 1-5 años según uso y presupuesto.</p>
-            </div>
-          </summary>
-          <div class="service__overlay">
-            <img src="https://www.moje-auto.pl/blog/wp-content/uploads/2021/02/powloka-ceramiczna-co-warto-o-niej-wiedziec-i-jak-o-nia-dbac.jpg" alt="Aplicación de recubrimiento cerámico" class="service__detail-img" />
-            <p>Aplicamos coatings de alta gama que crean una barrera invisible contra rayones leves, sol, suciedad y excremento de aves. Facilita el lavado y mantiene el brillo profundo. Elige duraciones de 1, 2, 3 o 5 años.</p>
-          </div>
-        </details>
-        <details class="card card--service service">
-          <summary>
-            <div class="service__body">
-              <h3 class="card__title">Detallado a Domicilio</h3>
-              <p class="card__text">Limpieza exterior/interior, descontaminación y protección sin salir de casa.</p>
-            </div>
-          </summary>
-          <div class="service__overlay">
-            <img src="https://www.shutterstock.com/image-photo/brand-new-sportscar-production-line-600nw-2287564373.jpg" alt="Detalle de limpieza interior a domicilio" class="service__detail-img" />
-            <p>Vamos a tu casa u oficina con equipos y procesos de estudio. Lavado seguro, interiores a detalle y protección para que ahorres tiempo con resultados profesionales.</p>
-          </div>
-        </details>
-        <details class="card card--service service">
-          <summary>
-            <div class="service__body">
-              <h3 class="card__title">PPF Paint Protection Film</h3>
-              <p class="card__text">Película invisible autocurable para zonas vulnerables o cobertura total.</p>
-            </div>
-          </summary>
-          <div class="service__overlay">
-            <img src="https://www.shutterstock.com/shutterstock/videos/1103467157/thumb/1.jpg?ip=x480" alt="Instalación de PPF en superficie" class="service__detail-img" />
-            <p>Protege full front, filos de puertas, manijas, negro piano o cobertura completa. El film absorbe impactos de piedras y rayones sin alterar la apariencia.</p>
-          </div>
-        </details>
-      </div>
-    </section>
-
-    <!-- Galería / Portafolio -->
-    <section class="section gallery" id="galeria">
-      <div class="section__header">
-        <p class="eyebrow">Galería</p>
-        <h2 class="section__title">Resultados que hablan por sí mismos</h2>
-      </div>
-      <div class="gallery__carousel">
-        <button class="carousel__control carousel__control--prev" aria-label="Foto anterior">‹</button>
-        <div class="carousel__track">
-          <div class="carousel__slide">
-            <img src="imgs/carro-ceramicado.webp" alt="Auto detallado con coating cerámico" />
-          </div>
-          <div class="carousel__slide">
-            <img src="imgs/carro2-ceramicado.webp" alt="Vista lateral de vehículo protegido" />
-          </div>
-          <div class="carousel__slide">
-            <img src="imgs/carro3-ceramicado.webp" alt="Detalle frontal con brillo profundo" />
-          </div>
-          <div class="carousel__slide">
-            <img src="imgs/ej-ceramicado.webp" alt="Brillo espejo en capó" />
-          </div>
-          <div class="carousel__slide">
-            <img src="imgs/ej2-ceramicado.webp" alt="Detalle de acabado cerámico" />
-          </div>
-        </div>
-        <button class="carousel__control carousel__control--next" aria-label="Foto siguiente">›</button>
-      </div>
-    </section>
-
-    <!-- Sobre Nosotros -->
-    <section class="section about" id="sobre">
-      <div class="about__content">
-        <div class="section__header">
-          <p class="eyebrow">Sobre Nosotros</p>
-          <h2 class="section__title">CeramicROOM, obsesionados con el detalle</h2>
-          <p class="section__lede">Misión: elevar el estándar del detailing en la región. Valores: transparencia, precisión y cuidado artesanal. Experiencia en coatings, PPF y corrección de pintura con procesos certificados.</p>
-        </div>
-        <div class="about__facts">
-          <div class="fact">
-            <p class="fact__label">Certificaciones</p>
-            <p class="fact__value">Marcas líderes en coating y PPF</p>
-          </div>
-          <div class="fact">
-            <p class="fact__label">Atención</p>
-            <p class="fact__value">Estudio y servicio móvil premium</p>
-          </div>
-        </div>
-      </div>
-      <div class="about__visual">
-        <div class="placeholder placeholder--about">Foto de taller / equipo</div>
-      </div>
-    </section>
-
-    <!-- Testimonios -->
-    <section class="section testimonials" id="testimonios">
-      <div class="section__header">
-        <p class="eyebrow">Testimonios</p>
-        <h2 class="section__title">Lo que dicen nuestros clientes</h2>
-      </div>
-      <div class="testimonials__grid">
-        <article class="card card--testimonial">
-          <p class="card__quote">“Dejaron mi auto mejor que nuevo. Brillo profundo y cero swirls.”</p>
-          <p class="card__author">— Andrés, BMW M3</p>
-        </article>
-        <article class="card card--testimonial">
-          <p class="card__quote">“El PPF quedó invisible. Excelente comunicación y entrega puntual.”</p>
-          <p class="card__author">— Laura, Tesla Model Y</p>
-        </article>
-        <article class="card card--testimonial">
-          <p class="card__quote">“Lavado premium a domicilio con estándares de estudio. 10/10.”</p>
-          <p class="card__author">— Carlos, Range Rover</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Contacto con formulario -->
-    <section class="section contact" id="contacto">
-      <div class="section__header contact_letters">
-        <p class="eyebrow">Contacto</p>
-        <h2 class="section__title">Reserva tu próximo servicio</h2>
-        <p class="section__lede">Escríbenos por WhatsApp para agendar o cotizar al instante.</p>
-      </div>
-      <div class="contact__cta">
-        <a class="btn btn--primary btn--block" href="https://wa.me/50600000000?text=Hola%20quiero%20reservar%20un%20servicio%20con%20CeramicROOM" target="_blank" rel="noopener noreferrer">Escríbenos por WhatsApp</a>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p class="footer__copy">© 2024 CeramicROOM. Detailing automotriz premium.</p>
-  </footer>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
