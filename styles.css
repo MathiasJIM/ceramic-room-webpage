@@ -142,6 +142,12 @@ a {
   background: rgba(255, 255, 255, 0.04);
 }
 
+.btn--whatsapp {
+  background: linear-gradient(135deg, #1f8f4e, #22b35a);
+  color: #0a0a0a;
+  box-shadow: 0 12px 30px rgba(34, 179, 90, 0.28);
+}
+
 .btn--block {
   width: 100%;
 }
@@ -489,7 +495,7 @@ a {
 }
 
 .service[open] .service__overlay {
-  max-height: 1400px;
+  max-height: 2400px;
   opacity: 1;
   padding: 12px;
   margin-top: 10px;
